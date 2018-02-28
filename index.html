@@ -2,26 +2,75 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>My website</title>
+<title>Chart of SWE Program</title>
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 	<header>
-		<h1>Hello world</h1>
+		<!-- The header is divided to three division: topLeftAside, topRightAside, Center, and footer -->
+		<div id="topLeftAside">
+			<img src="KFUPMLogo.png" alt="KFUPM Logo" width="90" height="85">
+		</div>
+		<div id="topRightAside">
+			<img src="ICSLogo.png" alt="ICS Logo" width="60" height="83">
+		</div>
+		<div id="topBody">
+			<table>
+				<tr>
+					<td>King Fahd University of Petroleum & Minerals</td>
+					<td>جامعة الملك فهد للبترول والمعادن</td>
+				</tr>
+				<tr>
+					<td>College of Computer Sciences & Engineering</td>
+					<td>كلية علوم وهندسة الحاسب الآلي</td>
+				</tr>
+				<tr>
+					<td>Information & Computer Science Department</td>
+					<td>قسم علم الحاسب الآلي والمعلومات</td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="topFooter">
+			<a class="firstSentance">Software Engineering (SWE)
+				Pre-Requisites Chart</a> <a class="secondSentance">(132
+				Credit-Hours)</a>
+		</div>
 	</header>
 	<section>
-		<h3>This is a test fo knowledge in HTML</h3>
-		<nav>
-			<h4>Navigation</h4>
-			<ul>
-				<li><a class="selected" href="http://www.google.com" > Google</a></li>
-				<li>Youtube</li>
-				<li>Yahoo</li>
-			</ul>
-		</nav>
+		<!-- The body which contain the chart of SWE program -->
+		<img src="SWEProgram.png" width="1080" height="585" alt="SWE Program"
+			usemap="#courses">
+		<map name="courses">
+			<area shape="rect" coords="610,195,700,244" href="SWE326.html"
+				alt="SWE326">
+			<area shape="rect" coords="610,60,700,110" href="SWE363.html"
+				alt="SWE363">
+			<area shape="rect" coords="610,304,700,353" href="SWE387.html"
+				alt="SWE387">
+		</map>
 	</section>
+	<!-- The footer which contain The legend and some information -->
 	<footer>
-		<h1>This is the end of the test. Thank you</h1>
+		<div id="bottomLeftAside">
+			<a class="blue">Legend</a>
+		</div>
+		<div id="bottomRightAside">
+			<a class="blue">Last Updated on Wednesday Jun 14, 2017</a>
+		</div>
+		<table>
+			<tr>
+				<td class="A"><a class="blue">'</a> Co-requisite: Math 101</td>
+				<td class="A"><a class="blue">"</a> Co-requisite: Math 102</td>
+			</tr>
+			<tr>
+				<td class="A"><i class="Lab"><img src="Lab.png"
+						alt="Requiers Lab" width="50" height="20"></i><a class="B">Requires
+						Lab Work</a></td>
+				<td class="A">J Junior Standing</td>
+			</tr>
+		</table>
+
 	</footer>
 </body>
 </html>
