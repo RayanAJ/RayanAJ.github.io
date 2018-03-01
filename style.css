@@ -65,7 +65,6 @@ footer {
 	bottom: -30px;
 }
 
-<<<<<<< HEAD
 td.A {
 	padding-right: 80px;
 	padding-left: 20px;
@@ -94,12 +93,6 @@ a.blue {
 	font-size: 1.3em;
 	line-height: 50%;
 	text-align: center;
-=======
-
-ul{
-	list-style-type: none;
-	padding: 0;
->>>>>>> 6aa6462efefce91544a44c1d59d084ee37a9e461
 }
 
 .Red {
@@ -116,7 +109,6 @@ ul{
 	color: #03a200;
 	background-color: transparent;
 	text-decoration: none;
-<<<<<<< HEAD
 }
 
 .link:hover {
@@ -173,79 +165,3 @@ table.assesTable th, .assesTable td {
 	border-collapse: collapse;
 }
 
-=======
-	color: black;
-	
-}
-a.firstSentance{
-	font: 24px arial, sans-serif;
-}
-a.secondSentance{
-	font: 18px arial, sans-serif;
-}
-aside {
-	float: right;
-}
-
-#topLeftAside{
-	float: left;
-}
-#topRightAside{
-	float:right;
-}
-#topBody{
-    height: 85px;
-    width: 550px;
-    text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#topFooter{
-	width: 1080px;
-
-	padding: 3px;
-    border: 1px solid black;
-	background-color: #a2ffa2;
-    border-radius: 5px;
-}
-footer{
-	width: 1080px;
-	height: 60x;
-    border: 1px solid black;
-	background-color: #feffd2;
-    border-radius: 5px;
-    text-align: left;
-}
-#bottomLeftAside{
-	float: left;
-	padding: 10px;
-	font: 15px arial, sans-serif;
-	
-}
-#bottomRightAside{
-	float: right;
-	padding: 10px;
-	font: 11px arial, sans-serif;
-	position: relative;
-	bottom: -30px;
-}
-td.A {
-	padding-right: 80px;
-	padding-left: 20px;
-	padding-top: 5px;
-	color: #820505;
-	font: 15px arial, sans-serif;
-
-}
-a.B {
-	padding-left: 5px;
-	color: #820505;
-	position: relative;
-	bottom: 4px;
-	font: 15px arial, sans-serif;
-}
-a.blue{
-	color: #28298b;
-}
->>>>>>> 6aa6462efefce91544a44c1d59d084ee37a9e461
